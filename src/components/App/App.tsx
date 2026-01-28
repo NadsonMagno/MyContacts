@@ -2,6 +2,7 @@ import React from 'react'
 import GlobalStyles from '../../assets/styles/global'
 
 import Header from '../Header/Header';
+import ContactsList from '../ContactsList/ContactsList';
 
 import  {ThemeProvider} from 'styled-components';
 import defaultTheme from '../../assets/styles/themes/default';
@@ -16,6 +17,7 @@ function App() {
         <GlobalStyles />
         <Container>
           <Header />
+          <ContactsList />
         </Container>
       </ThemeProvider>
     </>
