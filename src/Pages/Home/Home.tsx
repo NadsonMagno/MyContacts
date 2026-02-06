@@ -1,10 +1,15 @@
-import { Container, Header,  ListContainer, Card } from "./style";
+import { Container, InputSearchContainer, Header,  ListContainer, Card } from "./style";
 
 /* import arrow from '../../assets/images/icons/arrow.svg';
  */
-export default function ContactsList() {
+export default function Home() {
   return (
   <Container>
+    {/*             <img src={logo} alt="Logo" />
+ */}
+            <InputSearchContainer>
+                <input type="text" placeholder="Pesquisar contato..." />
+            </InputSearchContainer>
     <Header>
       <strong>3 contatos</strong>
       <a href="/">Adicionar novo contato</a>
