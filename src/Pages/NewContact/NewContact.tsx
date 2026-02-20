@@ -1,7 +1,7 @@
 import Input from "../../components/Input";
 import Select from "../../components/Select";
 import PageHeader from "../../components/PageHeader/PageHeader";
-
+import Button from "../../components/Button";
 
 
 export default function NewContact() {
@@ -16,6 +16,7 @@ export default function NewContact() {
             <option value="123">Intagram</option>
 
         </Select>
+        <Button type="button" disabled>Save</Button>
         </>
     )
     }
