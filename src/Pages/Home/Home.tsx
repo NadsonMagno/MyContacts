@@ -1,4 +1,5 @@
 import { Container, InputSearchContainer, Header,  ListContainer, Card } from "./style";
+import { Link } from "react-router-dom";
 
 /* import arrow from '../../assets/images/icons/arrow.svg';
  */
@@ -12,7 +13,7 @@ export default function Home() {
             </InputSearchContainer>
     <Header>
       <strong>3 contatos</strong>
-      <a href="/">Adicionar novo contato</a>
+      <Link to="/new">Adicionar novo contato</Link>
     </Header>
 
     <ListContainer>
@@ -38,9 +39,9 @@ export default function Home() {
         </div>
 
         <div className="actions">
-            <a href="/">
+            <Link to="/edit/1">
 {/*                 <img src={edit} alt="Edit" />
- */}        </a>
+ */}        </Link>
             <button type="button">
 {/*                 <img src={trash} alt="Trash" />
  */}        </button>

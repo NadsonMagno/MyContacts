@@ -2,6 +2,7 @@
 import styled   from "styled-components";
 
 export const Container = styled.header`
+    margin-bottom: 24px;
         a {
             text-decoration: none;
             span {
@@ -17,7 +18,7 @@ export const Container = styled.header`
             }
 
         }
-  
+
 `;
 
 export const Title = styled.h1`
